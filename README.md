@@ -10,8 +10,6 @@ NOAA National Centers for Environmental Information (NCEI)
 
 Dataset: Billion-Dollar Weather and Climate Disasters (1980–2024)
 
-NOAA Billion-Dollar Disasters Database
-
 Data Preparation
 The dataset was first cleaned and reformatted in Excel to fix column naming issues and address date inconsistencies.
 
@@ -23,15 +21,8 @@ Loaded into PostgreSQL for further cleaning and analysis.
 
 
   -A new column cpi_cost_full_amount was created to convert CPI-adjusted costs (originally scaled in billions) into full dollar amounts for clarity.
+  
   <img width="1431" height="283" alt="Screenshot 2025-07-31 164643" src="https://github.com/user-attachments/assets/4049a84a-57cd-4462-831c-9439c19a9558" />
-
-Resources:
-
-Excel File (used for preprocessing)
-
-SQL Query (used for data cleaning and analysis)
-
-Interactive Tableau Dashboard
 
 Technologies Used
 Excel (initial data formatting)
@@ -42,18 +33,28 @@ SQL (queries and calculations)
 
 Tableau (data visualization)
 
+Key Metrics
+Total Disasters (1980–2024)	403
+Total CPI-Adjusted Cost	$2,916,862,100,000,000
+Most Deadly Event Type	Tropical Cyclones (2,981 deaths)
+Longest Duration Event Type	Drought (365 days)
+Total disaster count from 2020 to 2024 is 115 and accounts for 28% of all disasters.
+
 Summary Insights
 
 Economic Impact:
-The total CPI-adjusted cost of billion-dollar disasters is approximately $2.92 quadrillion. The cost per decade has continued to increase. In the 1980s, the total cost was $2.19 trillion. In 2020 to 2024, the cost was $7.46 trillion.
+The total CPI-adjusted cost of all disasters is $2.92 quadrillion. The cost per decade has continued to increase. In the 1980s, the total cost was $2.19 trillion. In 2020 to 2024, the cost was $7.46 trillion.
 
 Disaster Frequency:
 The number of disasters per year has increased. Between 1980 and 1999 (two decades), there were 90 total disasters. From 2020 to 2024 (only four years), there were 115—accounting for 28% of all recorded disasters.
 
 Severity & Deaths:
-Disasters were categorized by severity using a CASE statement. If a disaster had more than 1000 deaths or a cost of over $100000000 then the disaster would be labeled as catastrophic. If deaths equaled 100 or cost was $10000000 then it would be labeled as severe and so on.
+Disasters were categorized by severity using a CASE statement.
 
-Two tropical cyclones (Katrina, and Maria) and one drought (Central/Eastern Drought/Heat Wave) were labeled as catastrophic 
+<img width="1119" height="466" alt="image" src="https://github.com/user-attachments/assets/66e4e3e4-2f12-4b4d-99aa-d0d5589c92c3" />
+
+
+Two tropical cyclones (Katrina, and Maria) and one drought (Central/Eastern Drought/Heat Wave) were labeled as catastrophic. 
 
 Tropical cyclones were the deadliest, accounting for 2,981 total deaths.
 
@@ -64,13 +65,6 @@ Notable Impacts:
 Homeowner insurance companies like Lexington Insurance and Bankers Insurance have pulled out of Florida due to mounting disaster costs and increased risk.
 
 In August 2024, FEMA paused recovery and rebuilding efforts in numerous disasters when the Disaster Relief Fund (DRF) was dangerously low. Congress funded the DRF with $20 billion dollars in October 2024 to continue relief efforts.
-
-Key Metrics
-Total Disasters (1980–2024)	403
-Total CPI-Adjusted Cost	$2,916,862,100,000,000
-Most Deadly Event Type	Tropical Cyclones (2,981 deaths)
-Longest Duration Event Type	Drought (365 days)
-Total disaster count from 2020 to 2024 is 115 and accounts for 28% of all disasters.
 
 How to Use
 
