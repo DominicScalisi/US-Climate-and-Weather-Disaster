@@ -3,7 +3,7 @@ Project Status
 Completed
 
 Project Objective
-This project analyzes the NOAA U.S. Billion-Dollar Weather and Climate Disasters dataset (1980–2024) to identify trends in the economic impact, and frequency of disasters over time. The goal is to uncover how the scope and scale of these events have evolved and provide data-driven insights into the growing financial and human toll of extreme weather events in the United States.
+This project analyzes the NOAA U.S. Billion-Dollar Weather and Climate Disasters dataset (1980–2024) to identify trends in the economic impact, severity, and frequency of disasters over time. The goal is to uncover how the scope and scale of these events have evolved and provide data-driven insights into the growing financial and human toll of extreme weather events in the United States.
 
 Data Source
 NOAA National Centers for Environmental Information (NCEI)
@@ -11,9 +11,9 @@ NOAA National Centers for Environmental Information (NCEI)
 Dataset: Billion-Dollar Weather and Climate Disasters (1980–2024)
 
 Data Preparation
-The dataset was first cleaned and reformatted in Excel to fix column naming issues and address date inconsistencies.
+The dataset was first prepared into Excel to address column capitialization and fix date formatting for import to PostgreSQL.
 
-Loaded into PostgreSQL for further cleaning and analysis.
+Imported into PostgreSQL to clean and analyze
 
   -Null rows (fully empty entries) were removed as they did not contain any usable data.
   
@@ -36,29 +36,28 @@ Tableau (data visualization)
 Key Metrics
 Total Disasters (1980–2024)	403
 Total CPI-Adjusted Cost	$2,916,862,100,000,000
-Most Deadly Event Type	Tropical Cyclones (2,981 deaths)
-Longest Duration Event Type	Drought (365 days)
+Most Deadly Event Type:	Tropical Cyclones (2,981 deaths)
+Longest Duration Event: Type	Drought (365 days)
 Total disaster count from 2020 to 2024 is 115 and accounts for 28% of all disasters.
 
 Summary Insights
 
 Economic Impact:
-The total CPI-adjusted cost of all disasters is $2.92 quadrillion. The cost per decade has continued to increase. In the 1980s, the total cost was $2.19 trillion. In 2020 to 2024, the cost was $7.46 trillion.
+The total CPI-adjusted cost of all disasters is $2.92 quadrillion. The cost per decade continues to increase. In the 1980s, the total cost was $2.19 trillion. In 2020 to 2024, the cost was $7.46 trillion.
 
 Disaster Frequency:
 The number of disasters per year has increased. Between 1980 and 1999 (two decades), there were 90 total disasters. From 2020 to 2024 (only four years), there were 115—accounting for 28% of all recorded disasters.
 
 Severity & Deaths:
-Disasters were categorized by severity using a CASE statement.
+Disasters were categorized by severity using a common table expression
 
-<img width="1119" height="466" alt="image" src="https://github.com/user-attachments/assets/66e4e3e4-2f12-4b4d-99aa-d0d5589c92c3" />
-
+<img width="1158" height="776" alt="Screenshot 2025-08-02 000221" src="https://github.com/user-attachments/assets/3061a13f-e806-4ca0-8453-df3baa2c4819" />
 
 Two tropical cyclones (Katrina, and Maria) and one drought (Central/Eastern Drought/Heat Wave) were labeled as catastrophic. 
 
 Tropical cyclones were the deadliest, accounting for 2,981 total deaths.
 
-Droughts were the longest-lasting, with durations of up to 365 days. They accounted for 1260 deaths total.
+Droughts were the longest-lasting, with durations of up to 365 days. They accounted for 1260 total deaths.
 
 Notable Impacts:
 
@@ -66,11 +65,4 @@ Homeowner insurance companies like Lexington Insurance and Bankers Insurance hav
 
 In August 2024, FEMA paused recovery and rebuilding efforts in numerous disasters when the Disaster Relief Fund (DRF) was dangerously low. Congress funded the DRF with $20 billion dollars in October 2024 to continue relief efforts.
 
-How to Use
-
-View the Dashboard: Explore the Tableau dashboard to interact with trends by frequency, cost, and severity.
-
-Run SQL Analysis: Use the provided SQL script to recreate the analysis or adapt it for your own research.
-
-Review Preprocessing Steps: The Excel file shows how the original NOAA data was prepared for SQL ingestion.
 
