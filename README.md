@@ -19,12 +19,11 @@ The dataset was first prepared into Excel to address column capitialization and 
 Imported into PostgreSQL to clean and analyze
 
   -Null rows were removed as they did not contain any usable data.
-  
-<img width="751" height="718" alt="Screenshot 2025-07-31 164518" src="https://github.com/user-attachments/assets/48fafc9d-142d-4125-8355-4b6114ee9bd8" />
 
-  -A new column cpi_cost_full_amount was created to convert CPI-adjusted costs (originally scaled in billions) into full dollar amounts for clarity.
-  
-  <img width="1431" height="283" alt="Screenshot 2025-07-31 164643" src="https://github.com/user-attachments/assets/4049a84a-57cd-4462-831c-9439c19a9558" />
+A new column cpi_adjusted_cost_fix was created to convert CPI-adjusted costs (originally scaled in billions) into full dollar amounts for clarity.
+
+ <img width="443" height="627" alt="Screenshot 2025-08-03 173009" src="https://github.com/user-attachments/assets/ef29f68f-079c-4b88-878a-d756b1cef2c9" />
+
 
 Technologies Used
 
