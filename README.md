@@ -61,6 +61,7 @@ Two tropical cyclones (Katrina, and Maria) and one drought (Central/Eastern Drou
 
 <img width="1249" height="766" alt="Screenshot 2025-08-02 191146" src="https://github.com/user-attachments/assets/0341d39a-89af-4a1a-8c60-57b17e823f3a" />
 
+
 Tropical cyclones were the deadliest, accounting for 2,981 total deaths.
 
 Droughts were the longest-lasting, with durations of up to 365 days. They accounted for 1260 total deaths.
