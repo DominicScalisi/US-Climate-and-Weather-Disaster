@@ -61,6 +61,9 @@ Two tropical cyclones (Katrina, and Maria) and one drought (Central/Eastern Drou
 
 <img width="1249" height="766" alt="Screenshot 2025-08-02 191146" src="https://github.com/user-attachments/assets/0341d39a-89af-4a1a-8c60-57b17e823f3a" />
 
+The amount of disasters per severity category was counted
+
+<img width="363" height="217" alt="Screenshot 2025-08-03 165111" src="https://github.com/user-attachments/assets/ac2bc584-5227-4fcb-b9a7-0a7020cd6790" />
 
 Tropical cyclones were the deadliest, accounting for 2,981 total deaths.
 
