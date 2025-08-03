@@ -37,6 +37,7 @@ SQL (queries and calculations)
 Tableau (data visualization)
 
 Key Metrics
+
 Total Disasters from 1980–2024:	403
 Total CPI-Adjusted Cost	$2,916,862,100,000,000
 Most Deadly Event Type:	Tropical Cyclones (2,981 deaths)
