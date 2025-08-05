@@ -64,7 +64,7 @@ The amount of disasters per severity category was counted
 
 <img width="363" height="217" alt="Screenshot 2025-08-03 165111" src="https://github.com/user-attachments/assets/ac2bc584-5227-4fcb-b9a7-0a7020cd6790" />
 
-Tropical cyclones were the deadliest, accounting for 2,981 total deaths.
+Tropical cyclones were the deadliest, accounting for 7,211 total deaths.
 
 Droughts were the longest-lasting, with durations of up to 365 days. They accounted for 1260 total deaths.
 
