@@ -4,7 +4,7 @@ Completed
 
 Project Objective
 
-This project analyzes the NOAA U.S. Billion-Dollar Weather and Climate Disasters dataset (1980–2024) to identify trends in the economic impact, severity, and frequency of disasters over time. The goal is to uncover how the scope and scale of these events have evolved and provide data-driven insights into the growing financial and human toll of extreme weather events in the United States.
+This project analyzes the [NOAA U.S. Billion-Dollar Weather and Climate Disasters dataset (1980–2024)](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0209268) to identify trends in the economic impact, severity, and frequency of disasters over time. The goal is to uncover how the scope and scale of these events have evolved and provide data-driven insights into the growing financial and human toll of extreme weather events in the United States.
 
 Data Source
 
