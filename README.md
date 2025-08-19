@@ -40,7 +40,7 @@ Key Metrics
 Total Disasters from 1980–2024:	403.
 Total CPI-Adjusted Cost	$2,916,862,100,000,000.
 Most Deadly Event Type:	Tropical Cyclones (2,981 deaths).
-Longest Duration Event: Type	Drought (365 days).
+Longest Duration Event Type:	Drought (365 days).
 Total disaster count from 2020 to 2024 is 115 and accounts for 28% of all disasters.
 
 Summary Insights
